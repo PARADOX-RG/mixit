@@ -3,12 +3,309 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MixIt</title>
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    
-
+    <header class="header" id="header">
+        <div class="header__top" id="header__top">
+            <div class="header__top-content">
+                <a class="header__top-link" href="#">
+                    <img class="header__top-logo" src="images/logo.svg" alt="logo">
+                </a>
+                <button class="header__btn">
+                    <img src="images/icons/menu.svg" alt="">
+                </button>
+                <nav class="header__nav">
+                    <a href="#header__top" class="header__close" id="close">
+                        <img src="images/icons/close.svg" alt="">
+                    </a>
+                    <ul class="header__menu">
+                        <li class="header__menu-item">
+                            <a class="header__menu-link" title="Home" href="#header">
+                                Home
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a class="header__menu-link" data-text="Features" href="#features">
+                                Features
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a class="header__menu-link" href="#video">
+                                How it works
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a class="header__menu-link" href="#about">
+                                About
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a class="header__menu-link" href="#get">
+                                Get MixIt
+                            </a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a class="header__menu-link" href="#aside">
+                                FAQ
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="container">
+            
+            <div class="header__content">
+                <h1 class="header__content-title">
+                    MixIt to your taste <br>
+                    All Cocktails in your pocket
+                </h1>
+                <p class="header__content-text">
+                    Explore the varieties of the world famous cocktails,
+                    discover the signature cocktails individually created
+                    by best bartenders and find what you can make from the
+                    ingredients in your bar
+                </p>
+                <p class="header__content-subtitle">
+                    Enter email to get notified when MixIt launches.
+                </p>
+                <form class="header__content-form" action="#">
+                    <input class="header__content-input" type="email" placeholder="Your email">
+                    <button class="header__content-btn" type="submit">Notify Me!</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="features" id="features">
+            <div class="container">
+                <div class="features__inner">
+                    <div class="features__top">
+                        <h3 class="features__title">
+                            What you get
+                        </h3>
+                        <ul class="features__content features__content-one">
+                            <li class="features__item">
+                                <h5 class="features__item-title">
+                                    My Bar 
+                                </h5>
+                                <p class="features__item-text">
+                                    Find the cocktails you can make from 
+                                    the ingredients in your bar
+                                </p>
+                            </li>
+                            <li class="features__item">
+                                <h5 class="features__item-title">
+                                    Signature cocktails
+                                </h5>
+                                <p class="features__item-text">
+                                    Unique cocktails created  by the best bartenders
+                                </p>
+                            </li>
+                        </ul>
+                        <ul class="features__content">
+                            <li class="features__item">
+                                <h5 class="features__item-title">
+                                    Find my cocktail 
+                                </h5>
+                                <p class="features__item-text">
+                                    Let us pick the best cocktail for you based
+                                    on the taste and style you like
+                                </p>
+                            </li>
+                            <li class="features__item">
+                                <h5 class="features__item-title">
+                                    Create your own cocktail
+                                </h5>
+                                <p class="features__item-text">
+                                    Modify your favorite drinks and keep your
+                                    own recipes in one place
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="features__video">
+                        <video class="features__video-item" controls src="video/MixIt.mp4" id="video"></video>
+                        <img class="features__video-img__one" src="images/video-2.jpg" alt="">
+                        <img class="features__video-img__two" src="images/video-3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="about__color"></div>
+            <div class="container">
+                <div class="about__inner">
+                    <img class="about__img" src="images/about.png" alt="images">
+                    <div class="about__content">
+                        <h3 class="about__title">
+                            About
+                        </h3>
+                        <p class="about__text">
+                            Enjoy the variety of cocktails from all over
+                            the world and create a personalised list of
+                            favorite drinks in one place. Discover new
+                            tastes and flavors of signature cocktails
+                            specially created and picked by best bartenders.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="get" id="get">
+            <div class="get__img"></div>
+            <div class="container">
+                <div class="get__inner">
+                    <h3 class="get__title">
+                        Get MixIt
+                    </h3>
+                    <p class="get__subtitle">
+                        Enter email to get notified when MixIt launches
+                    </p>
+                    <form class="get__content-form" action="#">
+                        <input class="get__content-input" type="text" placeholder="Your email">
+                        <button class="get__content-btn" type="submit">Notify Me!</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="aside" id="aside">
+            <div class="container">
+                <div class="aside__inner">
+                    <h3 class="aside__title">
+                        Frequently Asked Questions 
+                    </h3>
+                    <ul class="aside__content">
+                        <a href="#header" class="header__close" id="close">
+                            <img src="images/icons/close.svg" alt="">
+                        </a>
+                        <li class="aside__item">
+                            <h5 class="aside__subtitle" tabindex="-1">What is MixIt?</h5>
+                            <p class="aside__text">
+                                MixIt is a unique pocket library of cocktails from
+                                all around the world and specially created signature
+                                recipes from the best bartenders. It gives a unique
+                                opportunity for “My Bar” selection or simply search the
+                                recipes by cocktail name or origin. You can keep your favorite
+                                cocktails and recipes in one place and discover what you can
+                                make from the ingredients you have. MixIt to your taste. 
+                            </p>
+                        </li>
+                        <li class="aside__item">
+                            <h5 class="aside__subtitle" tabindex="-1">What cocktails can I find on MixIt?</h5>    
+                            <p class="aside__text">
+                                MixIt offers a huge variety of cocktails and drinks you can
+                                make from the ingredients in your Bar. You can start with the
+                                essential cocktail recipes and then move to signature cocktails
+                                or varieties of the cocktail types you like. You can find
+                                cocktails of different origins or try the new ones based on the
+                                spirit you like. Sweet, sour, or bitter, whichever works the best
+                                for you. MixIt to your taste! 
+                            </p>
+                        </li>
+                        <li class="aside__item">
+                            <h5 class="aside__subtitle" tabindex="-1">How to use My Bar function?</h5>
+                            <p class="aside__text">
+                                My Bar is a function that works as a “Home Bartender” by offering what
+                                you can make from the ingredients in your home Bar. Add to the list
+                                all the ingredients you have and Voila! You have the list of the
+                                cocktails you can enjoy including signature cocktails you can
+                                find nowhere else except this app.  
+                            </p>
+                        </li>
+                        <li class="aside__item">
+                            <h5 class="aside__subtitle" tabindex="-1">Your Library</h5>
+                            <p class="aside__text">
+                                Create a list of cocktails you like, personalize, rate, and comment.
+                                Save the edits you made, the cocktails you created, and the comments
+                                you left. All in one place. Share any cocktail with your friends in one touch. 
+                            </p>
+                        </li>
+                        <li class="aside__item">
+                            <h5 class="aside__subtitle" tabindex="-1">How can I get MixIt?</h5>
+                            <p class="aside__text">
+                                Download it from AppleStore and MixIt to your taste!
+                                GooglePlay availability is coming soon.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <nav class="footer__nav">
+                <ul class="footer__content footer__content-one">
+                    <a class="footer__content-link" href="#">
+                        <img class="footer__content-img" src="images/footer-logo.svg" alt="">
+                    </a>
+                    <a class="footer__content-email" href="mailto:support@mixitcocktails.com">
+                        support@mixitcocktails.com
+                    </a>
+                    <div class="footer__box">
+                        <a class="footer__box-link" href="https://www.instagram.com/mixit.cocktails/">
+                            <img class="footer__box-img" src="images/icons/instagram.svg" alt="icons">
+                        </a>
+                        <a class="footer__box-link" href="#">
+                            <img class="footer__box-img" src="images/icons/facebook.svg" alt="icons">
+                        </a>
+                    </div>
+                </ul>
+                <ul class="footer__support">
+                    <li class="footer__support-subtitle">
+                        <a class="footer__support-title" href="#">
+                            Support
+                        </a>
+                    </li>
+                    <li class="footer__support-item">
+                        <a class="footer__support-link" href="#">
+                            Privacy Policy
+                        </a>
+                    </li>
+                    <li class="footer__support-item">
+                        <a class="footer__support-link" href="#">
+                            Terms of Service
+                        </a>
+                    </li>  
+                </ul>
+                <ul class="footer__menu">
+                    <li class="footer__menu-subtitle">
+                        <a class="footer__menu-title" href="#header">
+                            Home
+                        </a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a class="footer__menu-link" href="#features">
+                            Features
+                        </a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a class="footer__menu-link" href="#video">
+                            How it works
+                        </a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a class="footer__menu-link" href="#about">
+                            About
+                        </a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a class="footer__menu-link" href="#get">
+                            Get MixIt
+                        </a>
+                    </li>
+                    <li class="footer__menu-item">
+                        <a class="footer__menu-link" href="#aside">
+                            FAQ
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 
 
     <script src="js/main.min.js"></script>
