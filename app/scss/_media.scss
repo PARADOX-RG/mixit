@@ -216,6 +216,23 @@
     .about__img{
         max-width: 83%;
     }
+    .privacy{
+        margin: 50px 0;
+        &__title{
+            margin-bottom: 50px;
+            font-size: 40px;
+            line-height: 50px;
+        }
+    }
+    .info{
+        margin-bottom: 70px;
+        &__title{
+            margin-bottom: 30px;
+            font-size: 40px;
+            line-height: 50px;
+            max-width: 408px;
+        }
+    }
 }
 @media (max-width: 550px){
     .header__content{
@@ -375,6 +392,25 @@
         }
         &__text{
             font-size: 14px;
+        }
+    }
+    .privacy{
+        &__title{
+            margin-bottom: 30px;
+            font-size: 30px;
+            line-height: 33px;
+        }
+    }
+    .info{
+        margin-bottom: 70px;
+        &__title{
+            margin-bottom: 30px;
+            font-size: 30px;
+            line-height: 33px;
+            max-width: 305px;
+        }
+        &__subtitle{
+            margin-top: 20px;
         }
     }
 }
